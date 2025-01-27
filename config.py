@@ -72,9 +72,9 @@ VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', "86400")) # Add time in seco
 U_S_E_P = True if (True if os.environ.get('U_S_E_P', "FALSE") == "TRUE" else False) and (USE_SHORTLINK) else False
 #Tutorial video for the user of your shortner on how to download.
 TUT_VID = os.environ.get("TUT_VID","https://t.me/SPIDEYOFFICIAL_777/12")
-
-
-
+#images changes as per the your needed 
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
 
 
 #Payment to remove the token system
