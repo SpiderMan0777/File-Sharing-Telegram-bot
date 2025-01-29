@@ -9,12 +9,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Language : <code>Python3</code></b> 🐍\n<b>○ Version : v1 🫏</b>\n<b>○ Developer : <code>@savoryrabbit</code> 😼</b>",
+            text = f"<b>‣ ᴍʏ ɴᴀᴍᴇ : <a href='https://telegram.me/Spidey_gaming_official_bot'>sᴘɪᴅᴇʏ_ɢᴀᴍɪɴɢ_ᴏғғɪᴄɪᴀʟ_ʙᴏᴛ</a>\n‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://telegram.me/Hacker_x_official_777'>ʜᴀᴄᴋᴇʀ_x_ᴏꜰꜰɪᴄɪᴀʟ_777</a>\n‣ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ\n‣ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ\n‣ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\n‣ ʜᴏsᴛᴇᴅ ᴏɴ  : ᴀʟʟ ᴡᴇʙ\n‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ𝟶.𝟹 [sᴛᴀʙʟᴇ]</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close")
                     ]
                 ]
             )
@@ -32,10 +32,10 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [   
                     [
-                        InlineKeyboardButton("Send Payment Screenshot(ADMIN) 📸", url=(SCREENSHOT_URL))
+                        InlineKeyboardButton("Sᴇɴᴅ Pᴀʏᴍᴇɴᴛ Sᴄʀᴇᴇɴꜱʜᴏᴛ 📸", url=(SCREENSHOT_URL))
                     ],
                     [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close")
                     ]
                 ]
             )
